@@ -24,7 +24,6 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatDialogModule } from "@angular/material/dialog";
 import { MatListModule } from "@angular/material/list";
 
-
 // Date table
 import { MatTableModule } from "@angular/material/table";
 import { MatAutocompleteModule } from "@angular/material/autocomplete";
@@ -72,7 +71,7 @@ import { MatTreeModule } from "@angular/material/tree";
     RouterModule,
     MatProgressSpinnerModule,
     MatListModule,
-    MatSnackBarModule,    
+    MatSnackBarModule,
     MatAutocompleteModule,
     MatBottomSheetModule,
     MatFormFieldModule,
@@ -83,7 +82,7 @@ import { MatTreeModule } from "@angular/material/tree";
     MatGridListModule,
     MatNativeDateModule,
     MatPaginatorModule,
-    MatProgressBarModule,   
+    MatProgressBarModule,
     MatRippleModule,
     MatSidenavModule,
     MatSliderModule,
@@ -92,19 +91,34 @@ import { MatTreeModule } from "@angular/material/tree";
     MatStepperModule,
     MatTabsModule,
     MatTreeModule,
-    MatRadioModule
-    
-  
-    
+    MatRadioModule,
+    MatDatepickerModule,
+    MatGridListModule,
+    MatIconModule,
+    MatInputModule,
+    MatListModule,
+    MatMenuModule,
+    MatNativeDateModule,
+    MatPaginatorModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule,
+    MatRadioModule,
+    MatRippleModule,
+    MatSelectModule,
+    MatSidenavModule,
+    MatSliderModule,
+    MatSlideToggleModule,
+    MatSnackBarModule,
+    MatSortModule,
+    MatStepperModule,
+    MatTableModule,
+    MatTabsModule,
+    MatToolbarModule,
+    MatTooltipModule,
+    MatTreeModule,
+    FlexLayoutModule
   ],
-  exports: [],
+
   declarations: []
 })
 export class MaterialModule {}
-
-
-
-
-
-
-
